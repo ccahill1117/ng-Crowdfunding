@@ -7,5 +7,5 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'This is the app component title!  You should change this line.';
+  title = 'Crowdfunding Website!';
 }
