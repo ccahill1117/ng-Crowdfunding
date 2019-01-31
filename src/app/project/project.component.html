@@ -1,0 +1,8 @@
+<h1>Projects Page</h1>
+<h3>Below is a list of project ideas requesting funding!</h3>
+
+<div *ngFor="let project of projects | async"  class="panel panel-default">
+  <div class="panel-body">
+    <h3 (click)="goToDetailPage(project)"><em>{{project.name}}</em> by {{project.creator}}</h3>
+  </div>
+</div>
